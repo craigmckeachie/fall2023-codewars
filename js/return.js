@@ -47,3 +47,10 @@ function function5() {
 let myObject = function5();
 console.log(myObject);
 console.log(myObject.last);
+
+const function6 = () => {
+  return "a string";
+};
+
+let returnStringFromArrow = function6();
+console.log(returnStringFromArrow);
